@@ -13,6 +13,8 @@ p {
 }
 
 
+
+
 ul {
     list-style: none;
 }
@@ -34,7 +36,20 @@ body {
     align-items: center;
     background: var(--color-lightblue);
     padding: 6px;
+    position: fixed;
+    top: 0;
+    width: 100%;
     
+}
+
+.nav-links li{
+    padding: 2px 20px;
+    margin: 5px 10px;
+    background: var(--color-blue);
+    color: #fff;
+    border-radius: 10px;
+    font-size: 1.2rem;
+
 }
 
 .name, .nav-item {
@@ -48,6 +63,8 @@ body {
 
 .name {
     padding-left: 25px;
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 
 .nav-links {
@@ -124,6 +141,7 @@ body {
     background: var(--color-yellow);
     border-radius: 10px;
     font-size: 1.2rem;
+    font-weight: 500;
 
 }
 
@@ -215,3 +233,35 @@ body {
     padding: 30px 30px;
 }
 
+
+.project-image{
+    width: 290px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 20px;
+
+}
+
+.project-item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* .project-list li{
+    display: flex;
+    justify-content: space-between;
+} */
+
+
+.project-item p{
+    margin: 10px 0px;
+}
+
+
+.project-item a{
+    font-weight: 700;
+    text-decoration: underline;
+}
